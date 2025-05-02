@@ -3,8 +3,8 @@
   "name": "Ch4120N Knightmare",
   "version": "1.0",
   "icons": { 
-    "128": "icon/icon2.png",
-    "512": "icon/icon2.png"
+    "128": "img/icon/icon.png",
+    "512": "img/icon/icon.png"
   },
  "browser_specific_settings": {
   "gecko": {
