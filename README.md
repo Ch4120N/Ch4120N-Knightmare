@@ -39,5 +39,5 @@
 4. Unzip the extension on any folder
 5. Back To Chrome/Or Microsoft Edge and Load Unpacked and Looking for Folder you Extracted
 6. Select The Folder
-7. Go To [Chess.Com]("https://chess.com") WebSite
+7. Go To [Chess.Com](https://www.chess.com) WebSite
 8. And Enjoy It :)
