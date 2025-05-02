@@ -12,3 +12,28 @@
 ## 👀 Screenshot
 <img src="img/screenshot/screenshot.png" alt="ScreenShot" />
 
+## Project Programmer
+> AmirHossein Ghanami (Ch4120N) - Ch4120N@Proton.me
+
+## ✨ Features
+
+* There Is No Limit
+* Enable/Disable Extension
+* Full Open Source
+* Calculating in 2 secounds
+* Very Good Design
+* Cross-Platform Browser Support
+* Minimizable Panel
+* Hide/Show Panel with `SHIFT+A` HotKeys
+* Support for Ultra Deep Analysis
+* Geting History Moves
+* Export PGP File
+* Support Board Highlights
+
+## 📝️ How it Works?
+1. First download the extension
+2. If you use `FireFox` you need to edit `manifest.json` file
+    - Edit Line 2 on `manifest.json` file change **`manifest_version`** value to **2**
+    - And Search for temporary extension installation on firefox
+3. If you use Chrome/Or Microsoft Edge you don't need any Work to do only Go To `Extensions` Settings Turn on Developer Mode
+4. 
