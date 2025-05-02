@@ -1,4 +1,4 @@
-<div style="text-align: center; justify-content: center;">
+<div style="text-align: center; justify-content: center; align-items: center;">
     <img src="img/logo/logo.png" alt="Ch4120N Knightmare">
     <h1 style="text-align: center;">Ch4120N Knightmare</h1>
 </div>
