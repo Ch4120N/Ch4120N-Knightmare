@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Ch4120N Knightmare",
+  "version": "1.0",
+  "icons": { 
+    "128": "icon/icon2.png",
+    "512": "icon/icon2.png"
+  },
+ "browser_specific_settings": {
+  "gecko": {
+    "id": "Ch4120N@Proton.me"
+  }
+},
+  "description": "Ch4120N Knightmare is an advanced and powerful extension for browsers, specifically designed for those who want to gain an undetectable advantage in online chess games, especially on Chess.com.\nThis cheat uses complex algorithms and real-time analysis to seamlessly integrate into your game, providing top-tier strategies for winning every match. No trace or sign of cheat activity remains in the game, and all actions are carried out automatically and discreetly.",
+  "content_scripts": [
+    {
+      "js": [
+        "src/includes/Config.js",
+        "src/includes/Utils.js",
+        "src/ui/Ui.js",
+        "src/core/Board.js",
+        "src/core/Engine.js",
+        "src/ChKnightmare.js"
+      ],
+      "css" : ["src/ui/styles.css"],
+      "matches": [
+        "https://www.chess.com/*",
+        "https://chess.com/*"
+      ]
+    }
+  ]
+}
