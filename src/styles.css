@@ -1,0 +1,204 @@
+/* === Scoped Dark Theme for #chess-cheat-panel === */
+#chess-cheat-panel {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  z-index: 10000;
+  font-family: 'Segoe UI', sans-serif;
+  color: #e0e0e0;
+}
+
+#chess-cheat-panel .panel {
+  background: rgba(30, 30, 30, 0.85);
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  animation: fadeIn 0.5s ease-in-out;
+  border: 2px solid #00b894;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+#chess-cheat-panel .info-up-panel{
+  font-size: small;
+  padding: 4px;
+}
+#chess-cheat-panel .panel-content {
+  padding: 15px;
+  display: block;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+#chess-cheat-panel .panel-content.minimized {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#chess-cheat-panel .drag-handle {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 10px 15px;
+  border-radius: 12px;
+  margin: -20px -20px 20px -20px; /* برای هم‌تراز شدن با داخل پنل */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: grab;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+}
+
+#chess-cheat-panel .drag-handle h2 {
+  color: #f1f1f1;
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+#chess-cheat-panel .button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+#chess-cheat-panel button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+  color: #fff;
+  border: 1px solid #444;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#chess-cheat-panel button:hover:not(:disabled) {
+  background: #00b894;
+  transform: scale(1.03);
+}
+
+#chess-cheat-panel button:disabled {
+  background: #444;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+#chess-cheat-panel .icon-btn {
+  padding: 6px;
+  background: transparent;
+}
+
+#chess-cheat-panel .minimize-btn svg {
+  stroke: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+#chess-cheat-panel label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #bbb;
+}
+
+#chess-cheat-panel select,
+#chess-cheat-panel input[type="checkbox"] {
+  width: 100%;
+  background: #1f1f1f;
+  border: 1px solid #444;
+  padding: 8px;
+  border-radius: 6px;
+  color: #eee;
+  margin-bottom: 10px;
+}
+
+#chess-cheat-panel select:focus {
+  outline: none;
+  border-color: #00b894;
+}
+
+#chess-cheat-panel .checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#chess-cheat-panel #engine-status,
+#chess-cheat-panel #best-moves {
+  background: #1e1e1e;
+  border-left: 4px solid #00b894;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#chess-cheat-panel #engine-status.stopped {
+  border-left-color: #e74c3c;
+  color: #fdd;
+}
+
+#chess-cheat-panel #engine-status.running {
+  border-left-color: #2ecc71;
+  color: #d4f8d4;
+}
+
+#chess-cheat-panel #best-moves::before {
+  content: "♟️ ";
+  font-size: 1.1rem;
+}
+
+#chess-cheat-panel .copyright {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #f1f1f1;
+    border-top: 1px solid #2a2a2a;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+#chess-cheat-panel .fen-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+#chess-cheat-panel .fen-container #fen-string {
+  flex: 1;
+  color: #ffffff;
+  font-size: 0.7em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#chess-cheat-panel .move-history-container {
+  margin: 10px 0;
+}
+
+#chess-cheat-panel #move-history {
+  background: #1f1f1f;
+  border: 2px solid #444;
+  border-radius: 4px;
+  max-height: 100px;
+  overflow-y: auto;
+  padding: 5px;
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+#chess-cheat-panel #move-history div {
+  margin: 2px 0;
+}
