@@ -29,15 +29,48 @@
 * Geting History Moves
 * Export PGP File
 * Support Board Highlights
+## 📦 Manual Installation
+To manually install the extension, follow these steps:
 
-## 📝️ How it Works?
-1. First download the extension
-2. If you use `FireFox` you need to edit `manifest.json` file
-    - Edit Line 2 on `manifest.json` file change **`manifest_version`** value to **2**
-    - And Search for temporary extension installation on Google
-3. If you use Chrome/Or Microsoft Edge you don't need any Work to do only Go To `Extensions` Settings Turn on Developer Mode
-4. Unzip the extension on any folder
-5. Back To Chrome/Or Microsoft Edge and Load Unpacked and Looking for Folder you Extracted
-6. Select The Folder
-7. Go To [Chess.Com](https://www.chess.com) WebSite
-8. And Enjoy It :)
+<details>
+  <summary><h3>Google Chrome Version</h3></summary>
+
+#### Step 1: Download the .zip file 💾
+- Download the extension with .zip format
+    - [Download ZIP]()
+#### Step 2: Open Chrome Extensions Page ⚙️
+- Open Chrome and navigate to:
+    - **`chrome://extensions/`**
+#### Step 3: Enable Developer Mode 🔧
+- In the top-right corner, enable Developer mode.
+#### Step 4: Install the Extension 📦
+1. Extract the .zip file.
+1. Click on Load unpacked.
+1. Select the folder where the extension was extracted.
+
+</details>
+<details>
+  <summary><h3>Mozilla FireFox Version</h3></summary>
+
+> [!NOTE]
+> You can download **Mozilla FireFox** Version from this [link](https://addons.mozilla.org/en-US/firefox/addon/charon-chatgpt-rtl-prompt/)
+
+#### Step 1: Download the .zip file 💾
+- Download the extension with .zip format
+    - [Download ZIP]()
+#### Step 2: Open Firefox Add-ons Page ⚙️
+- Open Firefox and navigate to the Add-ons page:
+    - Type **`about:addons`** in the address bar and press Enter.
+    - Or click the menu button (three lines in the top-right corner) > Add-ons and themes.
+- Open Chrome and navigate to:
+    - **`chrome://extensions/`**
+#### Step 3: Enable Developer Mode 🔧
+- In the top-right corner, enable Developer mode.
+#### Step 4: Install the Extension 📦
+1. Extract the .zip file.
+1. Click on Load unpacked.
+1. Select the folder where the extension was extracted.
+
+</details>
+
+### 📝️ How it Works?
