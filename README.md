@@ -34,7 +34,7 @@
 1. First download the extension
 2. If you use `FireFox` you need to edit `manifest.json` file
     - Edit Line 2 on `manifest.json` file change **`manifest_version`** value to **2**
-    - And Search for temporary extension installation on firefox
+    - And Search for temporary extension installation on Google
 3. If you use Chrome/Or Microsoft Edge you don't need any Work to do only Go To `Extensions` Settings Turn on Developer Mode
 4. Unzip the extension on any folder
 5. Back To Chrome/Or Microsoft Edge and Load Unpacked and Looking for Folder you Extracted
