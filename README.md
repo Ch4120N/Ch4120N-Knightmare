@@ -36,4 +36,8 @@
     - Edit Line 2 on `manifest.json` file change **`manifest_version`** value to **2**
     - And Search for temporary extension installation on firefox
 3. If you use Chrome/Or Microsoft Edge you don't need any Work to do only Go To `Extensions` Settings Turn on Developer Mode
-4. 
+4. Unzip the extension on any folder
+5. Back To Chrome/Or Microsoft Edge and Load Unpacked and Looking for Folder you Extracted
+6. Select The Folder
+7. Go To [Chess.Com]("https://chess.com") WebSite
+8. And Enjoy It :)
