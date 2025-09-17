@@ -1,9 +1,9 @@
 <div align="center">
     <img src="img/logo/logo.png" alt="Ch4120N Knightmare">
     <h1>Ch4120N Knightmare</h1>
-    <img src="https://img.shields.io/badge/Javascript-yellow" alt="JavaScript Badge">
-    <img src="https://img.shields.io/badge/Platform-All_Platforms-red">
-    <img src="https://img.shields.io/github/license/Ch4120N/Ch4120N-Knightmare">
+    <img src="https://img.shields.io/badge/Language-JavaScript-yellow?style=for-the-badge" alt="JavaScript Badge">
+    <img src="https://img.shields.io/badge/Platform-All_Platforms-red?style=for-the-badge">
+    <img src="https://img.shields.io/github/license/Ch4120N/Ch4120N-Knightmare?style=for-the-badge">
 
 `Ch4120N Knightmare` is an advanced and powerful extension for browsers, specifically designed for those who want to gain an undetectable advantage in online chess games, especially on Chess.com. This cheat uses complex algorithms and real-time analysis to seamlessly integrate into your game, providing top-tier strategies for winning every match. No trace or sign of cheat activity remains in the game, and all actions are carried out automatically and discreetly.
 </div>
@@ -13,7 +13,7 @@
 <img src="img/screenshot/screenshot.png" alt="ScreenShot" />
 
 ## Project Programmer
-> AmirHossein Ghanami (Ch4120N) - Ch4120N@Proton.me
+> Ch4120N - Ch4120N@Proton.me
 
 ## ✨ Features
 
@@ -29,6 +29,15 @@
 * Geting History Moves
 * Export PGP File
 * Support Board Highlights
+
+
+### 📝️ How it Works?
+To use this plugin, first download it:
+
+* [Google Chrome](https://github.com/Ch4120N/Ch4120N-Knightmare/releases) (For Google Chrome browser you most download from [release](https://github.com/Ch4120N/Ch4120N-Knightmare/releases) page)
+* [Mozilla FireFox](https://github.com/Ch4120N/Ch4120N-Knightmare/releases) (For Mozilla FireFox also you can download from [release](https://github.com/Ch4120N/Ch4120N-Knightmare/releases) page)
+After download, follow the introductions below:
+
 ## 📦 Manual Installation
 To manually install the extension, follow these steps:
 
@@ -73,4 +82,11 @@ To manually install the extension, follow these steps:
 
 </details>
 
-### 📝️ How it Works?
+## ❤️ Donation
+* **BTC**: `bc1ql4syps7qpa3djqrxwht3g66tldyh4j7qsyjkq0`
+* **ETH**: `0xfddbd535a4ad28792cbebceee3d6982d774e6d13`
+* **USDT**: `3Cq6HRQsiwZFmPEQfG9eJkZE2QGChvf2VN`
+    > Support the creator: donations are appreciated!
+
+## ☠️ Reporting Issues
+> If you are facing a configuration issue or something is not working as you expected to be, please use the **Ch4120N@Proton.me**
