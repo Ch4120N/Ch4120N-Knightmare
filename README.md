@@ -46,7 +46,7 @@ To manually install the extension, follow these steps:
 
 #### Step 1: Download the .zip file 💾
 - Download the extension with .zip format
-    - [Download ZIP]()
+    - [Download ZIP](https://github.com/Ch4120N/Ch4120N-Knightmare/releases)
 #### Step 2: Open Chrome Extensions Page ⚙️
 - Open Chrome and navigate to:
     - **`chrome://extensions/`**
@@ -66,7 +66,7 @@ To manually install the extension, follow these steps:
 
 #### Step 1: Download the .zip file 💾
 - Download the extension with .zip format
-    - [Download ZIP]()
+    - [Download ZIP](https://github.com/Ch4120N/Ch4120N-Knightmare/releases)
 #### Step 2: Open Firefox Add-ons Page ⚙️
 - Open Firefox and navigate to the Add-ons page:
     - Type **`about:addons`** in the address bar and press Enter.
@@ -90,3 +90,4 @@ To manually install the extension, follow these steps:
 
 ## ☠️ Reporting Issues
 > If you are facing a configuration issue or something is not working as you expected to be, please use the **Ch4120N@Proton.me**
+
